@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+        
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.php">Gallery</a></li>
+                <li><a href="upload.php">Upload</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <h1>Image Gallery</h1>
+    <button class="toggle-btn" onclick="toggleMode()">☀️</button>
+
+    <div class="gallery">
+        <div class="card">
+            <a href="details.html?id=mountain">
+                <img src="https://picsum.photos/id/1015/600/400" alt="Image 1">
+                <p>Beautiful Mountain</p>
+            </a>
+        </div>
+        <div class="card">
+            <img src="https://picsum.photos/id/1025/600/400" alt="Image 2">
+            <p>Peaceful Beach</p>
+        </div>
+        <div class="card">
+            <img src="https://picsum.photos/id/1035/600/400" alt="Image 3">
+            <p>Forest View</p>
+        </div>
+        <div class="card">
+            <img src="https://picsum.photos/id/1045/600/400" alt="Image 4">
+            <p>Sunset Lake</p>
+        </div>
+        <div class="card">
+            <img src="https://picsum.photos/id/1055/600/400" alt="Image 5">
+            <p>Night City Lights</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
